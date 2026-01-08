@@ -1,0 +1,68 @@
+*{
+       margin: 0;
+       padding: 0;
+}
+body{
+       background-color: rgba(41, 38, 191, 0.21);
+       text-align: center;
+}
+main{
+       
+}
+.outerDiv{
+       height: 70vh;
+       display: flex;
+       justify-content: center;
+       align-items: center; 
+       
+}
+.gameDiv{
+       background-color: rgb(227, 215, 199);
+       height: 60vmin; 
+       width: 60vmin;     
+       display: flex;
+       flex-wrap: wrap; 
+       gap: 1.5vmin;  
+       align-items: center;
+       justify-content: center;
+       
+}
+.game{
+       
+       border-radius: 1rem;
+       height: 18vmin;
+       width: 18vmin;
+       font-size: 8vmin;
+       box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+}
+.reset{
+       display: block;
+       margin-top: 2em;
+       height: 3rem;
+       width: 7rem;
+       border: 2px black solid;
+       background-color: rgb(115, 164, 159);
+       color: red;
+       font-size: 1.12em;
+       margin: auto;
+}
+.newGame{
+       display: block;
+       height: 3rem;
+       width: 7rem;
+       border: 2px black solid;
+       background-color: rgb(115, 164, 159);
+       color: red;
+       font-size: 1.12em;
+       visibility: hidden;
+       margin: auto;
+}
+.hide{
+       visibility: hidden;
+} 
+.win{
+       color: crimson;
+}
+.tagh1{
+       color: darkred;
+}
