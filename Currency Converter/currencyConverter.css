@@ -1,0 +1,73 @@
+*{
+       margin: 0;
+       padding: 0;
+
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 97vh;
+   background-color: rgb(34, 32, 32);
+  border: 10px rgb(1, 1, 1) solid;
+}
+.outerDiv{
+       height: 60vh;
+       width: 60vh;
+       background-color: rgb(85, 89, 88);
+       border: 10px rgb(1, 1, 1) solid;
+}
+.inputDiv{
+       display: flex;
+       flex-direction: column;
+       gap: 0.4rem;
+       align-items: center;
+       justify-content: center;
+       margin-top: 1rem;
+}
+.innerDiv{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       height: 30vh;
+       width: 55vh;
+       margin: 0 1rem  0 1rem;
+}
+.symb{
+       font-size: 3rem;
+       color: rgb(6, 5, 5);
+}
+.outputDiv{
+       text-align: center;
+       color: rgb(237, 8, 8);
+}
+img{
+       border: 2px rgb(1, 1, 1) solid;
+       max-width: 3rem;
+}
+select{
+       cursor: pointer;
+}
+.headingDiv{
+       text-align: center;
+       color: rgb(101, 214, 49);
+}
+.buttonDiv{
+       margin-top: 1rem;
+       display: flex;
+       justify-content: center;
+}
+.buttonDiv button{
+       height: 2rem;
+       color: blue;
+       border-radius: 10%;
+       cursor: pointer;
+       border: 4px rgb(1, 1, 1) solid;
+       background-color: rgb(55, 52, 52);
+}
+.inputDiv input{
+       text-align: center;
+       border-radius: 5%;
+       font-size: medium;
+       color: brown;
+}
