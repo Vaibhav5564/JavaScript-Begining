@@ -1,0 +1,61 @@
+* {
+       padding: 0;
+       margin: 0;
+}
+body{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin-top: 80px;
+       background-color: rgb(8, 8, 8);
+}
+h1{
+       margin-top: 10px;
+}
+.input-class {
+    display: block;
+    margin: 60px auto;
+}
+
+.container {
+       color: rgb(181, 69, 69);
+       height: 80vh;
+       width: 40vw;
+       background-image: url("iphone.jpg");
+       border-radius: 10%;
+       border: 2px rgb(196, 39, 11) solid;
+}
+
+.digOfCal {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    gap: 5px;
+}
+
+.elInCal {
+       height: 60px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       font-size: 1.4rem;
+       width: 22%;
+       border: 2px rgb(203, 191, 191) solid;    
+       border-radius: 20%;
+}
+h1{
+       text-align: center;
+       color: white;
+       padding-top: 15px;
+}
+input{
+       text-align: center;
+       
+       height: 2rem;
+       width: 60%;
+       font-size: 1rem;      
+}
+.elInCal:hover{
+    color: rgb(71, 246, 13);
+}
