@@ -67,10 +67,12 @@ gameClicked = (box) => {
        count++;
        if (turnO === true) {
               box.innerText = "X";
+              box.style.color="red";
               turnO = false;
        }
        else {
               box.innerText = "O";
+              box.style.color="red";
               turnO = true;
        }
        box.disabled = true;
