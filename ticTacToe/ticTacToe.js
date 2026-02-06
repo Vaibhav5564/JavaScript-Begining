@@ -30,14 +30,21 @@ newGame.addEventListener("click", () => {
 });
 
 const showWinner = (val) => {
-       if (val === "X" && player1===null && player2===null)
+       if (val === "X" && player1===null && player2===null){
               winnerClass.innerText = `Congratulations Winner is ${val}`;
-       else if (val === "O" && player1===null && player2===null)
+              winnerClass.style.color="red";
+       }
+       else if (val === "O" && player1===null && player2===null){
               winnerClass.innerText = `Congratulations Winner is ${val}`;
-       else if (val === "X")
+       winnerClass.style.color="blue";
+       }
+       else if (val === "X"){
               winnerClass.innerText = `Congratulations Winner is ${player1}`;
+              winnerClass.style.color="red";
+       }
        else {
               winnerClass.innerText = `Congratulations Winner is ${player2}`;
+              winnerClass.style.color="blue";
        }
        winnerClass.classList.remove("hide");
        newGame.style.visibility = "visible";

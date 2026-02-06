@@ -35,6 +35,9 @@ main{
        font-size: 8vmin;
        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
 }
+.game:hover{
+       border:0.25rem red solid;
+}
 .reset{
        display: block;
        margin-top: 2em;
