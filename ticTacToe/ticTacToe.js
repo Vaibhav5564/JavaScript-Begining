@@ -72,7 +72,7 @@ gameClicked = (box) => {
        }
        else {
               box.innerText = "O";
-              box.style.color="red";
+              box.style.color="blue";
               turnO = true;
        }
        box.disabled = true;
