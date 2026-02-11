@@ -42,7 +42,7 @@ img:hover{
 .navbar{
        height: 10vh;
        line-height: 8vh;
-       background-color: rgb(76, 76, 248);
+       background-color: rgb(80, 80, 248);
 }
 .navbar > p{
        font-size: 2rem;
