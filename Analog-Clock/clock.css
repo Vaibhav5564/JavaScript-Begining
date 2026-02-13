@@ -35,7 +35,7 @@ body {
 .support {
     width: 6%;
     height: 6%;
-    background: black;
+    background: rgb(20, 20, 20);
     border-radius: 50%;
 
     left: 51%;
